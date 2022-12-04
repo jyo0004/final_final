@@ -1,0 +1,357 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <title>Health Care and Well Being Systems</title>
+<!--
+
+
+
+-->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="Tooplate">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     {% load static %}
+     <link rel="stylesheet" href="{% static 'my_app/bootstrap.min.css' %}">
+     <link rel="stylesheet" href="{% static 'my_app/font-awesome.min.css' %}">
+     <link rel="stylesheet" href="{% static 'my_app/animate.css' %}">
+     <link rel="stylesheet" href="{% static 'my_app/owl.carousel.css' %}">
+     <link rel="stylesheet" href="{% static 'my_app/owl.theme.default.min.css' %}">
+
+     <!-- MAIN CSS -->
+  <link rel="stylesheet" href="{% static 'my_app/tooplate-style.css' %}">
+
+</head>
+<body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+     <!-- PRE LOADER -->
+     <section class="preloader">
+          <div class="spinner">
+
+               <span class="spinner-rotate"></span>
+
+          </div>
+     </section>
+
+
+
+
+
+     <!-- MENU -->
+     <section class="navbar navbar-default navbar-static-top" role="navigation">
+          <div class="container">
+
+               <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                    </button>
+
+                    <!-- lOGO TEXT HERE -->
+                    <a href="index.html" class="navbar-brand"><i class="fa fa-h-square"></i>wealth Center</a>
+               </div>
+
+               <!-- MENU LINKS -->
+               <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                         <li><a href="#top" class="smoothScroll">Home</a></li>
+                         <li><a href="#about" class="smoothScroll">About Us</a></li>
+                         <li><a href="#team" class="smoothScroll">Doctors</a></li>
+                         <li><a href="#contact" class="smoothScroll">Contact</a></li>
+                         <li class="appointment-btn"><a href="#appointment">Make an appointment</a></li>
+                         <li class="signin"><a href="{% url 'signin' %}">signin</a></li>
+                    </ul>
+               </div>
+
+          </div>
+     </section>
+
+
+     <!-- HOME -->
+     <section id="home" class="slider" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                         <div class="owl-carousel owl-theme">
+                              <div class="item item-first">
+                                   <div class="caption">
+                                        <div class="col-md-offset-1 col-md-10">
+                                             <h3>Let's make your life happier</h3>
+                                             <h1>Healthy Living</h1>
+                                             <a href="#team" class="section-btn btn btn-default smoothScroll">Meet Our Doctors</a>
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <div class="item item-second">
+                                   <div class="caption">
+                                        <div class="col-md-offset-1 col-md-10">
+                                             <h3>Without health life is not life</h3>
+                                             <h1>perfect living</h1>
+                                             <a href="#about" class="section-btn btn btn-default btn-gray smoothScroll">More About Us</a>
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <div class="item item-third">
+                                   <div class="caption">
+                                        <div class="col-md-offset-1 col-md-10">
+                                             <h3> Doctors won’t make you healthy. <br>
+                                                  Nutritionists won’t make you slim. <br>
+                                                  Teachers won’t make you smart.<Br>
+                                                  Gurus won’t make you calm. Mentors won’t make you rich. <Br>
+                                                  Trainers won’t make you fit. Ultimately, you have to take responsibility.<Br>
+                                                  Save yourself</h3>
+
+
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+
+               </div>
+          </div>
+     </section>
+
+
+     <!-- ABOUT -->
+     <section id="about">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-6 col-sm-6">
+                         <div class="about-info">
+                              <h2 class="wow fadeInUp" data-wow-delay="0.6s">Welcome to our </i>HOSPITAL</h2>
+                              <div class="wow fadeInUp" data-wow-delay="0.8s">
+                                   <p>The Hospital in accordance with the philosophy  aims to reach out to all members of the community irrespective of race, colour or creed,
+                                        to continue the healing and preserve the heritage.</p>
+                                   <p> As a non-profit institution the hospital seeks to provide the most modern facilities and
+                                        health care to satisfy the needs of all the community
+                                        by re-investing any surplus to  continue the mission</p>
+                                   <p>The fundamental purpose of health care is to enhance quality of life by enhancing health.
+                                        Commercial businesses focus on creating financial profit to support their valuation and remain viable.
+                                        Health care must focus on creating social profit to fulfill its promise to society.</p>
+
+
+                              </div>
+                              <figure class="profile wow fadeInUp" data-wow-delay="1s">
+                                   <img src="https://hhma.org/wp-content/uploads/2020/04/bigstock_Successful_Doctor_In_Uniform_W_4733466.jpg" class="img-responsive" alt="">
+                                   <figcaption>
+                                        <h3>Dr. Hrithik Sharma</h3>
+                                        <p>General Principal</p>
+                                   </figcaption>
+                              </figure>
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+
+     <!-- TEAM -->
+     <section id="team" data-stellar-background-ratio="1">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-6 col-sm-6">
+                         <div class="about-info">
+                              <h2 class="wow fadeInUp" data-wow-delay="0.1s">Our Doctors</h2>
+                         </div>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <div class="col-md-4 col-sm-6">
+                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.2s">
+                              <img src="https://townsquare.media/site/494/files/2018/05/Doctor-with-sick-child.jpg?w=1200&h=0&zc=1&s=0&a=t&q=89" class="img-responsive" alt="">
+
+                                   <div class="team-info">
+                                        <h3>Dr.Agarwal</h3>
+                                        <p>General Principal</p>
+                                        <div class="team-contact-info">
+                                             <p><i class="fa fa-phone"></i> 010-020-0120</p>
+                                             <p><i class="fa fa-envelope-o"></i> <a href="#">general@wealthcenter.com</a></p>
+                                        </div>
+                                        <ul class="social-icon">
+                                             <li><a href="#" class="fa fa-linkedin-square"></a></li>
+                                             <li><a href="#" class="fa fa-envelope-o"></a></li>
+                                        </ul>
+                                   </div>
+
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.4s">
+                              <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F38%2F2005%2F10%2F12212422%2Fwavebreakmedia4.jpg&q=85" class="img-responsive" alt="">
+
+                                   <div class="team-info">
+                                        <h3>Dr.Karthik Kumar</h3>
+                                        <p>Pregnancy</p>
+                                        <div class="team-contact-info">
+                                             <p><i class="fa fa-phone"></i> 010-070-0170</p>
+                                             <p><i class="fa fa-envelope-o"></i> <a href="#">pregnancy@wealthcenter.com</a></p>
+                                        </div>
+                                        <ul class="social-icon">
+                                             <li><a href="#" class="fa fa-facebook-square"></a></li>
+                                             <li><a href="#" class="fa fa-envelope-o"></a></li>
+                                             <li><a href="#" class="fa fa-flickr"></a></li>
+                                        </ul>
+                                   </div>
+
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+                              <img src="https://image.freepik.com/free-photo/young-female-doctor-cardiologist-sitting-her-desk-working_93675-40652.jpg" class="img-responsive" alt="">
+
+                                   <div class="team-info">
+                                        <h3>Dr.Poonam Shetty</h3>
+                                        <p>Cardiology</p>
+                                        <div class="team-contact-info">
+                                             <p><i class="fa fa-phone"></i> 991-299-9977</p>
+                                             <p><i class="fa fa-envelope-o"></i> <a href="#">cardio@wealthcenter.com</a></p>
+                                        </div>
+                                        <ul class="social-icon">
+                                             <li><a href="#" class="fa fa-twitter"></a></li>
+                                             <li><a href="#" class="fa fa-envelope-o"></a></li>
+                                        </ul>
+                                   </div>
+
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+
+
+
+     <!-- MAKE AN APPOINTMENT -->
+     <section id="appointment" data-stellar-background-ratio="3">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-6 col-sm-6">
+                         <img src="static/my_app/appointment-image.jpg" class="img-responsive" alt="">
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                         <!-- CONTACT FORM HERE -->
+                         <form id="appointment-form" role="form" method="post" action="{% url 'getres' %}">
+                          {% csrf_token %}
+                              <!-- SECTION TITLE -->
+                              <div class="section-title wow fadeInUp" data-wow-delay="0.4s">
+                                   <h2>Make an appointment</h2>
+                              </div>
+
+                              <div class="wow fadeInUp" data-wow-delay="0.8s">
+                                   <div class="col-md-6 col-sm-6">
+                                        <label for="name">Name</label>
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Full Name">
+                                   </div>
+
+                                   <div class="col-md-6 col-sm-6">
+                                        <label for="email">Email</label>
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
+                                   </div>
+
+                                   <div class="col-md-6 col-sm-6">
+                                        <label for="date">Select Date</label>
+                                        <input type="date" name="date" value="" class="form-control">
+                                   </div>
+
+                                   <div class="col-md-6 col-sm-6">
+                                        <label for="select">Select Department</label>
+                                        <select class="form-control">
+                                             <option>General Health</option>
+                                             <option>Cardiology</option>
+                                             <option>Dental</option>
+                                             <option>Medical Research</option>
+                                        </select>
+                                   </div>
+
+                                   <div class="col-md-12 col-sm-12">
+                                        <label for="telephone">Phone Number</label>
+                                        <input type="tel" class="form-control" id="phone" name="phno" placeholder="Phone">
+                                        <label for="Message">Additional Message</label>
+                                        <textarea class="form-control" rows="5" id="message" name="message" placeholder="Message"></textarea>
+                                        <button type="submit" class="form-control" id="cf-submit" name="submit">Submit Button</button>
+                                   </div>
+                              </div>
+                        </form>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+
+
+
+
+     <!-- FOOTER -->
+     <footer data-stellar-background-ratio="5">
+          <div class="container">
+               <div class="row">
+
+                    <div id ="contact" class="col-md-4 col-sm-4">
+                         <div class="footer-thumb">
+                              <h4 class="wow fadeInUp" data-wow-delay="0.4s">Contact Info</h4>
+                              <p>Address: No. 3, jubliee hills, wealth center, hyderabad, India.<br>
+                                    Fax : (855) 23 724 892 <br>
+                                      Hotline : 855-11 426 948 <BR>
+                                      Out Patient Department (OPD): 855- 11 414 065
+
+
+
+                              </p>
+
+                              <div class="contact-info">
+                                   <p><i class="fa fa-phone"></i> Phone No : 212-908-0991</p>
+                                   <p><i class="fa fa-envelope-o"></i> <a href="#">E-Mail : hospital@wealthcenter.gov.com</a></p>
+                                   <p><i class="fa fa-envelope-o"></i> <a href="#">Web site : www.wealthcenter.gov.com</a></p>
+                              </div>
+                         </div>
+                    </div>
+
+
+                    <div class="col-md-4 col-sm-4">
+                         <div class="footer-thumb">
+                              <div class="opening-hours">
+                                   <h4 class="wow fadeInUp" data-wow-delay="0.4s">Opening Hours</h4>
+                                   <p>Monday - Friday <span>06:00 AM - 10:00 PM</span></p>
+                                   <p>Saturday - <span>09:00 AM - 08:00 PM</span></p>
+                                   <p>Sunday -<span>Closed</span></p>
+                              </div>
+
+
+                         </div>
+                    </div>
+
+
+
+               </div>
+          </div>
+     </footer>
+
+     <!-- SCRIPTS -->
+     <script src="static/my_app/jquery.js"></script>
+     <script src="static/my_app/bootstrap.min.js"></script>
+     <script src="static/my_app/jquery.sticky.js"></script>
+     <script src="static/my_app/jquery.stellar.min.js"></script>
+     <script src="static/my_app/wow.min.js"></script>
+     <script src="static/my_app/smoothscroll.js"></script>
+     <script src="static/my_app/owl.carousel.min.js"></script>
+     <script src="static/my_app/custom.js"></script>
+
+</body>
+</html>
